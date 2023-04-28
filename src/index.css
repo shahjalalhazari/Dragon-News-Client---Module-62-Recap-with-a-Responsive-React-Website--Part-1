@@ -3,3 +3,7 @@
 :root{
     font-family: 'Poppins', sans-serif;
 }
+
+.nav-link{
+    text-decoration: none;
+}

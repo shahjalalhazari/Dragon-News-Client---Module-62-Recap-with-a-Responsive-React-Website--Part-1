@@ -4,7 +4,6 @@ import React from "react";
 import logo from "../../../public/logo.png";
 import moment from "moment/moment";
 import { Container } from "react-bootstrap";
-import ReactMarquee from "../../components/ReactMarquee/ReactMarquee";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -17,7 +16,6 @@ const Header = () => {
       <p className="mt-0">
         <strong>{moment().format("dddd, MMMM D, gggg")}</strong>
       </p>
-      <ReactMarquee />
     </Container>
   );
 };
