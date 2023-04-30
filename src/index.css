@@ -9,6 +9,8 @@
     text-decoration: none;
 }
 
+
+
 .categories-list {
     list-style: none;
     background-color: #e7e7e7;
@@ -16,4 +18,26 @@
 
 .categories-list li a {
     text-decoration: none;
+}
+.sm-icon {
+    background-color: #e7e7e7;
+    padding: 3px 7px 6px 7px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icons {
+    text-decoration: none;
+}
+
+#facebook {
+    background-color: #3b5998;
+}
+
+#twitter {
+    background-color: #00acee;
+}
+
+#instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }

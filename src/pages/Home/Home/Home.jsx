@@ -2,7 +2,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import LeftSide from "../LeftSide/LeftSide";
-import RightSide from "../RightSide/RightSide";
+import RightSide from '../../../shared/RightSide/RightSide'
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
             <h4 className="text-bold">All News</h4>
           </Col>
           <Col lg={3}>
-            <RightSide />
+            <RightSide/>
           </Col>
         </Row>
       </Container>
