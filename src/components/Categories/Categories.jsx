@@ -23,7 +23,7 @@ const Categories = () => {
           <h6 className="my-auto">
             <Link
               to={`/category/${category.id}`}
-              className="text-decoration-none text-bold ms-5 text-black"
+              className="text-decoration-none ms-5 text-black"
             >
               {category.name}
             </Link>

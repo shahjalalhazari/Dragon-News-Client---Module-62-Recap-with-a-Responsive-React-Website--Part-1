@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Card, ListGroup } from "react-bootstrap";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaGithub, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const SocialMedia = () => {
@@ -10,7 +10,11 @@ const SocialMedia = () => {
       <h4 className="text-bold">Login With</h4>
       <Card className="w-100 mt-3">
         <ListGroup variant="flush">
-          <Link to="" className="rounded-top icons">
+          <Link
+            to="https://www.facebook.com/shahjalalhazari0/"
+            className="rounded-top icons"
+            target="_blank"
+          >
             <ListGroup.Item className="py-3">
               <span className="sm-icon text-white" id="facebook">
                 <FaFacebookF />
@@ -18,15 +22,23 @@ const SocialMedia = () => {
               Facebook
             </ListGroup.Item>
           </Link>
-          <Link to="" className="icons">
+          <Link
+            to="https://github.com/shahjalalhazari"
+            className="icons"
+            target="_blank"
+          >
             <ListGroup.Item className="py-3">
-              <span className="sm-icon text-white" id="twitter">
-                <FaTwitter />
+              <span className="sm-icon text-white" id="github">
+                <FaGithub />
               </span>{" "}
-              Twitter
+              Github
             </ListGroup.Item>
           </Link>
-          <Link to="" className="rounded-bottom icons">
+          <Link
+            to="https://www.instagram.com/shahjalalhazari/"
+            className="rounded-bottom icons"
+            target="_blank"
+          >
             <ListGroup.Item className="py-3">
               <span className="sm-icon text-white" id="instagram">
                 <FaInstagram />
