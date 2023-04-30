@@ -3,6 +3,7 @@ import React from "react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FaUserCircle } from "react-icons/fa";
+import ActiveLink from "../../components/ActiveLink/ActiveLink";
 
 const Navitems = () => {
   return (
@@ -12,27 +13,24 @@ const Navitems = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
             <Nav.Link>
-              <Link to="/" className="nav-link">
-                <strong>Home</strong>
-              </Link>
+              <ActiveLink to="/">Home</ActiveLink>
             </Nav.Link>
+
             <Nav.Link>
-              <Link to="/" className="nav-link">
-                <strong>About</strong>
-              </Link>
+              <ActiveLink to="/about">About</ActiveLink>
             </Nav.Link>
-            <Nav.Link>
-              <Link to="/" className="nav-link text-">
-                <strong>Career</strong>
-              </Link>
+
+            <Nav.Link className="nav-link">
+              <ActiveLink to="/career">Career</ActiveLink>
             </Nav.Link>
           </Nav>
-          <Nav className="d-flex gap-3 align-center">
+
+          <Nav className="d-flex gap-3">
             <FaUserCircle
               className="my-auto"
               style={{ width: "40px", height: "40px" }}
             ></FaUserCircle>
-            <Button variant="dark">
+            <Button variant="dark" size="sm">
               <Link to="/" className="nav-link text-light">
                 Login
               </Link>

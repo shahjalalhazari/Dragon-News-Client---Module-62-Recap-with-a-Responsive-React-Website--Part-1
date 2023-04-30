@@ -4,6 +4,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.nav-link{
+.active {
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.categories-list {
+    margin-left: -35px;
+}
+
+.categories-list li {
+    list-style: none;
+    background-color: #e7e7e7;
+}
+
+.categories-list li a {
     text-decoration: none;
 }
