@@ -10,10 +10,6 @@
 }
 
 .categories-list {
-    margin-left: -35px;
-}
-
-.categories-list li {
     list-style: none;
     background-color: #e7e7e7;
 }
